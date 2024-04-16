@@ -8,10 +8,23 @@ const kDarkGrey = Color(0xFFFABABAB);
 const kMatterhornBlack = Color(0xFF525252);
 const kEgyptianBlue = Color(0xFF102693);
 const kNightBlack = Color(0xFF2C2C2C);
+const kLuckyBlueParent = Color(0xFF363853);
+const kTreeGreen = Color(0xFF6ED097);
+const kLightGrey = Color(0xFFCBCBCB);
+const kOrange = Color(0xFFF65725);
+const kTropicalBlue = Color(0xFFADC8FF);
 const kHeading5 = TextStyle(
   fontSize: 24,
   fontWeight: FontWeight.w600,
   color: Colors.black,
+  letterSpacing: 1.5,
+  wordSpacing: 2.0,
+  fontStyle: FontStyle.italic,
+  height: 1.5,
+);
+const kSubtittle1 = TextStyle(
+  fontSize: 14,
+  fontWeight: FontWeight.w600,
   letterSpacing: 1.5,
   wordSpacing: 2.0,
   fontStyle: FontStyle.italic,
@@ -34,6 +47,15 @@ const kButton1 = TextStyle(
   fontStyle: FontStyle.italic,
   height: 1.5,
 );
+const kButton2 = TextStyle(
+  fontSize: 13,
+  fontWeight: FontWeight.w500,
+  color: Colors.white,
+  letterSpacing: 1.5,
+  wordSpacing: 2.0,
+  fontStyle: FontStyle.italic,
+  height: 1.5,
+);
 const kCaption = TextStyle(
   fontSize: 10,
   fontWeight: FontWeight.w500,
@@ -44,6 +66,14 @@ const kCaption = TextStyle(
 );
 const kBody1 = TextStyle(
   fontSize: 13,
+  fontWeight: FontWeight.w500,
+  letterSpacing: 1.5,
+  wordSpacing: 2.0,
+  fontStyle: FontStyle.italic,
+  height: 1.5,
+);
+const kBody2 = TextStyle(
+  fontSize: 11,
   fontWeight: FontWeight.w500,
   letterSpacing: 1.5,
   wordSpacing: 2.0,
